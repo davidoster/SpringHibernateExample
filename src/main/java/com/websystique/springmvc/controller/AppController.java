@@ -47,6 +47,7 @@ public class AppController {
 		model.addAttribute("employee", employee);
 		model.addAttribute("edit", false);
 		return "registration";
+                
 	}
 
 	/*

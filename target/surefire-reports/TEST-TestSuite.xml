@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="23" failures="0" name="TestSuite" time="3.344" errors="0" skipped="0">
+<testsuite tests="23" failures="0" name="TestSuite" time="3.571" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
@@ -63,27 +63,27 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="deleteEmployee" time="0.015"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="editEmployee" time="0.021"/>
+  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="deleteEmployee" time="0.012"/>
+  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="editEmployee" time="0.016"/>
   <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="listEmployees" time="0.007"/>
   <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="newEmployee" time="0.001"/>
   <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="saveEmployeeWithSuccess" time="0.001"/>
   <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="saveEmployeeWithValidationError" time="0"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="saveEmployeeWithValidationErrorNonUniqueSSN" time="0.001"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="updateEmployeeWithSuccess" time="0.001"/>
-  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="updateEmployeeWithValidationError" time="0.001"/>
+  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="saveEmployeeWithValidationErrorNonUniqueSSN" time="0.002"/>
+  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="updateEmployeeWithSuccess" time="0"/>
+  <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="updateEmployeeWithValidationError" time="0"/>
   <testcase classname="com.websystique.springmvc.controller.AppControllerTest" name="updateEmployeeWithValidationErrorNonUniqueSSN" time="0.001"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="deleteEmployeeByInvalidSsn" time="0.103"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="deleteEmployeeBySsn" time="0.003"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="findAllEmployees" time="0.003"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="findById" time="0.01"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="findEmployeeBySsn" time="0.01"/>
-  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="saveEmployee" time="0.016"/>
+  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="deleteEmployeeByInvalidSsn" time="0.099"/>
+  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="deleteEmployeeBySsn" time="0.002"/>
+  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="findAllEmployees" time="0.002"/>
+  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="findById" time="0.009"/>
+  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="findEmployeeBySsn" time="0.009"/>
+  <testcase classname="com.websystique.springmvc.dao.EmployeeDaoImplTest" name="saveEmployee" time="0.018"/>
   <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="deleteEmployeeBySsn" time="0"/>
-  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="findAllEmployees" time="0.001"/>
+  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="findAllEmployees" time="0"/>
   <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="findById" time="0"/>
-  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="findEmployeeBySsn" time="0.001"/>
-  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="isEmployeeSsnUnique" time="0.001"/>
+  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="findEmployeeBySsn" time="0"/>
+  <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="isEmployeeSsnUnique" time="0"/>
   <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="saveEmployee" time="0"/>
   <testcase classname="com.websystique.springmvc.service.EmployeeServiceImplTest" name="updateEmployee" time="0"/>
 </testsuite>
